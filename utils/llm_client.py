@@ -11,3 +11,7 @@ def generate(prompt, temperature):
     response = client.responses.create(model=MODEL, input=prompt,
                                        temperature=temperature, max_output_tokens=80)
     return response.output_text.strip()
+
+def generate_full_response(prompt, temperature):
+    return client.responses.create(model=MODEL, input=prompt,
+                                   temperature=temperature, max_output_tokens=80)

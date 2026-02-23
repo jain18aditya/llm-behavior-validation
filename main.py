@@ -8,9 +8,9 @@ if len(sys.argv) < 2:
 exp = sys.argv[1]
 
 if exp == "exp1":
-    from experiments.temperature_experiment import run_exp
-# elif exp == "exp2":
-#     from experiments.exp2_token_impact import run
+    from experiments.experiment1_temperature import run_exp
+elif exp == "exp2":
+    from experiments.experiment2_token_size import run_exp
 # elif exp == "exp3":
 #     from experiments.exp3_json_output import run
 # elif exp == "exp4":

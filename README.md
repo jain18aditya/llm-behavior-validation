@@ -328,9 +328,8 @@ Personal Assistant Agent (v1)
 
 ---
 
-# 🎓 Interview-Level Understanding
 
-Be able to explain:
+Questions:
 
 - What is a token?
 - Why token size affects cost?
@@ -377,14 +376,6 @@ Observability
 
 ---
 
-# 🗓 Daily Study Structure
-
-- 1.5 hr → Concepts / Reading
-- 2.5 hr → Coding / Implementation
-- 1 hr → Debugging / Notes
-
----
-
 # 🔒 Security Notice
 
 - No API keys stored in repository
@@ -393,34 +384,3 @@ Observability
 - Personal API key not checked in
 
 ---
-
-# 🚀 Next Steps
-
-- Week 4 — Planner / Multi-Step Agent
-- Add Memory
-- Add Evaluation Framework
-- Add Observability
-- Optimize cost & latency
-
----
-
-# 📌 Purpose of This Project
-
-This repository demonstrates:
-
-- Deep understanding of LLM behavior
-- Prompt engineering mastery
-- Framework-independent agent architecture
-- Structured tool orchestration
-- Guardrails & reliability design
-- Progressive agent system design
-
----
-
-If you’d like next, I can generate:
-
-- `.gitignore`
-- `requirements.txt`
-- GitHub-ready project description
-- Architecture diagram section
-- Week 4 template

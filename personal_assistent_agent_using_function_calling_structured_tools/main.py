@@ -9,5 +9,6 @@ while True:
 Summarize this email: Please send the report by tomorrow.
 
 Extract order details:{Order ID: 123,Amount: $50,Status: Shipped}
+
 Plan my day for preparing a presentation
 """

@@ -2,6 +2,8 @@
 from openai import OpenAI
 from config import MODEL
 import os
+import chromadb
+from chromadb.config import Settings
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -21,3 +23,6 @@ def get_client():
 
 def get_model():
     return MODEL
+
+def get_chroma_client():
+    return chromadb.PersistentClient(path="./chroma_db")

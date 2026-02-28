@@ -23,7 +23,6 @@ Evaluation → Logging
 import time
 import json
 import chromadb
-from chromadb.config import Settings
 from utils.llm_client import get_client
 
 # ------------------ CONFIG ------------------
